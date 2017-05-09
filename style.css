@@ -1,0 +1,264 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Special Elite', cursive;
+  font-size: 18px;
+  line-height: 1.2;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  background-color: #C0C0C0;
+  padding-bottom: 150px;
+  border-top: solid 1px #000000;
+}
+
+.title {
+  color: #000000;
+  font-size: 24px;
+  float: left;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: 800;
+  color: #ff0000;
+}
+
+.headergraphic {
+  float: right;
+}
+
+nav {
+  background-color: #000080;
+  padding: 10px;
+  font-size: 22px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 40px 0 50px;
+  padding: 10px;
+}
+
+nav a {
+   color: #ffff00;
+}
+.topbox {
+  background-image: url("images/CoverPhotos/museum-entrance.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  padding: 10px;
+  color: #000000;
+}
+
+.welcome {
+  font-family: 'Kalam', cursive;
+  width: 300px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  margin: 20px;
+  font-size: 24px;
+}
+
+#name {
+  font-weight: 800;
+  font-style: italic;
+}
+.navmargin {
+  margin-bottom: 25px;
+}
+
+#galleryentrance {
+  margin: 25px auto;
+  background: #000000;
+}
+
+#gallerytitle {
+  padding-top: 25px;
+}
+
+.galleries {
+  padding: 30px 30px 43px 30px;
+  float: left;
+  width: 45%;
+  border: solid 1px #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#gallerygraphic {
+  float: left;
+}
+
+.button {
+  float: right;
+  color: #ffff00;
+}
+
+h2 {
+  text-align: center;
+  color: #ff0000;
+  font-size: 34px;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  font-weight: 800;
+}
+
+h3 a {
+  font-size: 26px;
+  color: #ff0000;
+  font-weight: 800;
+}
+
+.smallbox {
+  width: 33%;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}
+
+.row {
+  display: inline-block;
+}
+
+.category {
+  width: 45%;
+  box-sizing: border-box;
+  float: left;
+  margin: 15px 40px 15px 0;
+}
+
+#ads {
+  margin: 25px 75px 25px 45px;
+  background-color: #000000;
+}
+
+#bioblock {
+  margin: 40px auto;
+}
+
+.bio {
+  float: left;
+  width: 50%;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.biopic {
+  float: left;
+  margin top: 30px;
+}
+
+#collage img {
+  width: 50%;
+  float: left;
+}
+
+form {
+  margin: 25px;
+}
+
+#note {
+  float: left;
+  width: 45%;
+  padding: 25px;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+#notephoto {
+  float: left;
+  width: 55%;
+  padding: 25px;
+}
+
+footer {
+  background-color: #C0C0C0;
+  padding: 30px;
+  text-align: center;
+}
+
+.footerbox {
+  float: left;
+  width: 33%;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 25px auto;
+}
+
+h4 {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+footer p {
+  font-size: 24px;
+  color: #000000;
+}
+
+.showless {
+  display: none;
+}
+
+.show-hide {
+  font-style: italic;
+  margin: 10px auto;
+}
+
+.show-hide:hover {
+  color: gray;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
