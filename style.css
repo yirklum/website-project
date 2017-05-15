@@ -149,21 +149,28 @@ h2 {
   font-weight: 800;
 }
 
-h3 a {
+h3 {
+  font-size:26px;
+  text-align: center;
+}
+
+  h3 a {
   font-size: 26px;
   color: #ff0000;
   font-weight: 800;
+  text-align: justify;
 }
 
 .smallbox {
   width: 33%;
-  box-sizing: border-box;
   float: left;
-  padding: 10px;
+  display: inline-block;
+  margin: 15px auto;
+  padding-right: 20px;
 }
 
-.row {
-  display: inline-block;
+.smallbox h3 {
+  text-align: left;
 }
 
 .category {
@@ -180,6 +187,7 @@ h3 a {
 
 #bioblock {
   margin: 40px auto;
+  border-top: solid 1px #ffffff;
 }
 
 .bio {
@@ -191,7 +199,7 @@ h3 a {
 
 .biopic {
   float: left;
-  margin top: 30px;
+  padding-top: 85px;
 }
 
 #collage img {
@@ -215,6 +223,175 @@ form {
   float: left;
   width: 55%;
   padding: 25px;
+}
+
+.latest-review {
+  font-family: 'Kalam', cursive;
+  background-repeat: no-repeat;
+  border-top: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;
+  padding: 25px 0;
+  margin: 30px auto;
+}
+
+#review-title {
+  background-image: url("images/Graphics/Map-banner.jpeg");
+  background-size: cover;
+  width: 850px;
+  padding: 30px;
+  margin-left: 50px;
+}
+
+.review {
+  padding: 40px 0px 0px 55px;
+  background-image: url("images/Graphics/Vintage-notebook.jpeg");
+  background-size: cover;
+  color: #000000;
+  height: 550px;
+}
+
+.food-review {
+  width: 45%;
+  float: left;
+  padding-right: 25px;
+}
+
+.food-photo {
+  width: 45%;
+  float: left;
+  padding-left: 45px;
+  padding-top: 55px;
+}
+
+.food-photo img {
+  border: solid 1px #000000
+}
+
+h6 {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.address {
+  font-weight: 800;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.right-page {
+  margin-left: 35px;
+}
+
+#mid-atlantic {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Seafood.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#midwest {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/Food/OriginalPancakeHouseFalls-Church-Dutch-baby.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#northeast {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Bagel-and-lox.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#pacific-northwest {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Salmon.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#southeast {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Fried-chicken-and-gravy.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#southwest {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Mexican-corn.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#west {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Steak.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#international {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Dumplings.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+.region {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+}
+
+.region h5 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+}
+
+h5 a {
+  color: #000000;
 }
 
 footer {
