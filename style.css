@@ -143,7 +143,7 @@ nav a {
 h2 {
   text-align: center;
   color: #ff0000;
-  font-size: 34px;
+  font-size: 38px;
   padding-bottom: 15px;
   padding-top: 25px;
   font-weight: 800;
@@ -225,6 +225,10 @@ form {
   padding: 25px;
 }
 
+.section-title {
+  background:
+}
+
 .latest-review {
   font-family: 'Kalam', cursive;
   background-repeat: no-repeat;
@@ -298,7 +302,7 @@ h6 {
 #midwest {
   display: inline-block;
   width: 23%;
-  background-image: url("images/Food/OriginalPancakeHouseFalls-Church-Dutch-baby.jpeg");
+  background-image: url("images/CoverPhotos/Dutch-baby.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 150px;
