@@ -208,7 +208,7 @@ h3 {
 }
 
 form {
-  margin: 25px;
+  margin: 25px 25px 25px 125px;
 }
 
 #note {
@@ -221,8 +221,9 @@ form {
 
 #notephoto {
   float: left;
-  width: 55%;
-  padding: 25px;
+  margin: 25px;
+  margin-bottom: 50px;
+  border: solid 2px red;
 }
 
 .newsfeed-title {
@@ -234,6 +235,13 @@ form {
   padding: 50px 30px 0 30px;
   height: 279px;
   text-align: center;
+}
+
+#mission {
+  color: #ff0000;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.7;
 }
 
 #guide {
@@ -252,7 +260,8 @@ form {
 }
 
 #newsfeed-intro {
-  padding: 25px 0;
+  margin: 25px 25px 25px 70px;
+  width: 85%;
 }
 
 .latest-review {
