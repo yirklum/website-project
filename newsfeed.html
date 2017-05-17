@@ -11,7 +11,7 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker" rel="stylesheet">
 
-    	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+    	<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="script.js"></script>
 
@@ -24,40 +24,37 @@
 	</head>
 	
 	<body>
-		<header>
+		<div id="nfh">
 			<div class="clear">
-				<div class="title">
-					<h1 class="logo">Collecting the News</h1>
+				<div class="newsfeed-title">
+					<h1 class="logo">Newsfeed</h1>
 				
-					<p>A Digital Scrapbook of TV News</p>
+					<p><span id="guide">A Traveling Journalist's Guide to Food on the Road</span></p>
 				</div>
 
-				<div class="headergraphic">
-					<img src="images/CoverPhotos/camera.jpeg">
+				<div class="food-map">
+					<img src="images/Graphics/US-food-map.jpeg">
 				</div>
 			</div>
-		</header>
 		
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-					
-				<li><a href="contact.html">Contact</a></li>
-					
-				<li><a href="#">Donate</a></li>
-					
-				<li><a href="#">Shop</a></li>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+						
+					<li><a href="contact.html">Contact</a></li>
+						
+					<li><a href="#">Donate</a></li>
+						
+					<li><a href="#">Shop</a></li>
 
-				<li><a href="#">Search</a></li>
-			</ul>
-		</nav>
+					<li><a href="#">Links</a></li>
+				</ul>
+			</nav>
+		</div>	
 
-		<section class="section-title">
-			<h2>Newsfeed</h2>
-			<h3>A Traveling Journalist's Guide to Food on the Road</h3>
-		</section>
+		<p id="newsfeed-intro">I've been a photojournalist for CNN since before it went on the air in 1980. My work has taken me to war zones around the world, where I've sampled mystery meats I can't identify to this day. I've eaten while submerged in a fast attack nuclear submarine traveling under the Arctic ice pack, had dinner with Fidel Castro and eaten barbecue with Ronald Reagan.</p>
 
-		<div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:650px;margin:0px auto 86px;">
+		<div class="clear" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:650px;margin:0px auto 86px;">
 	        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
 	            <ul class="amazingslider-slides" style="display:none;">
 	                <li><img src="images/Food/Georgia-Steak-and-eggs.jpeg" alt="Reel Seafood, Woodstock, GA"  title="Reel Seafood, Woodstock, GA" />
@@ -112,15 +109,13 @@
 	        </div>
     	</div>
 
-		<p>I've been a photojournalist for CNN since before it went on the air in 1980. My work has taken me to war zones around the world, where I've sampled mystery meats I can't identify to this day. I've eaten while submerged in a fast attack nuclear submarine traveling under the Arctic ice pack, had dinner with Fidel Castro and eaten barbecue with Ronald Reagan.</p>
-
 		<section class="latest-review">
 			<h2>Latest Entry</h2>
 			
 			<div id="review-title">
 				<h3>Charleston, South Carolina: Traditional Southern comfort food</h3>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p class="food-intro">I recently spent some time working in Charleston, South Carolina and had the opportunity to try quite a few of the area's restaurants. From hole-in-the wall eateries to historic fine-dining establishmnets, Charleston-area restaurants have a common theme: traditional Southern comfort food. I had some great fried chicken, mac & cheese, grits, biscuits, and other Southern staples. I've included overviews of a few of my favrorite places below.</p>
 			</div>
 
 			<article class="clear review">
@@ -228,7 +223,7 @@
 
 		<section>
 			<h3>Past Reviews</h3>
-			<p>Explore other reviews, organized below based on geographic region.</p>
+			<p class="food-intro">Explore other reviews, organized below based on geographic region.</p>
 			
 			<div class="clear">
 				<div id="mid-atlantic">
