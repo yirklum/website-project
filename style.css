@@ -225,8 +225,34 @@ form {
   padding: 25px;
 }
 
-.section-title {
-  background:
+.newsfeed-title {
+  float: left;
+  width: 53%;
+  background-color: #C0C0C0;
+  color: #000000;
+  font-size: 24px;
+  padding: 50px 30px 0 30px;
+  height: 279px;
+  text-align: center;
+}
+
+#guide {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.newsfeed-map {
+  float: right;
+  width: 40%;
+  height: auto;
+}
+
+#nfh {
+  margin-bottom: 25px;
+}
+
+#newsfeed-intro {
+  padding: 25px 0;
 }
 
 .latest-review {
@@ -244,6 +270,10 @@ form {
   width: 850px;
   padding: 30px;
   margin-left: 50px;
+}
+
+.food-intro {
+  margin-top: 15px;
 }
 
 .review {
