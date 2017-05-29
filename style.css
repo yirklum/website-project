@@ -59,6 +59,7 @@ header {
   float: left;
   padding-top: 25px;
   padding-left: 30px;
+  text-align: center;
 }
 
 .logo {
@@ -67,8 +68,25 @@ header {
   color: #ff0000;
 }
 
+.centered-title {
+  padding-left: 70px;
+}
+
+.contact-title {
+  padding-left: 125px;
+}
+
+
 .headergraphic {
   float: right;
+}
+
+#header-photo {
+  border: solid 2px #ff0000;
+}
+
+#welcome-to {
+  padding-left:55px;
 }
 
 nav {
@@ -96,11 +114,10 @@ nav a {
 }
 
 .welcome {
-  font-family: 'Kalam', cursive;
-  width: 300px;
+  width: 316px;
   float: left;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 30px;
+  padding: 26px;
   margin: 20px;
   font-size: 24px;
 }
@@ -108,6 +125,7 @@ nav a {
 #name {
   font-weight: 800;
   font-style: italic;
+  color: #ff0000;
 }
 .navmargin {
   margin-bottom: 25px;
@@ -140,7 +158,7 @@ nav a {
   color: #ffff00;
 }
 
-h2 {
+  h2 {
   text-align: center;
   color: #ff0000;
   font-size: 38px;
@@ -178,6 +196,11 @@ h3 {
   box-sizing: border-box;
   float: left;
   margin: 15px 40px 15px 0;
+}
+
+.highlighted-name {
+  color: #ff0000;
+  font-style: italic;
 }
 
 #ads {
@@ -224,6 +247,10 @@ form {
   margin: 25px;
   margin-bottom: 50px;
   border: solid 2px red;
+}
+
+.headergraphic-left {
+  float: left;
 }
 
 .newsfeed-title {
@@ -435,6 +462,25 @@ h6 {
 
 h5 a {
   color: #000000;
+}
+
+#history-title {
+  font-size: 52px;
+}
+
+.history-article {
+  width: 900px;
+  padding-left: 50px;
+}
+
+.article {
+  float: left;
+}
+
+.article-image {
+  float: right;
+  padding-left: 25px;
+  padding-bottom: 25px;
 }
 
 footer {
