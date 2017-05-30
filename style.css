@@ -28,7 +28,7 @@
 /*******************************************/
 
 body {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   font-family: 'Special Elite', cursive;
   font-size: 18px;
@@ -116,10 +116,11 @@ nav a {
 .welcome {
   width: 316px;
   float: left;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #000000;
   padding: 26px;
   margin: 20px;
   font-size: 24px;
+  color: #ffffff;
 }
 
 #name {
@@ -129,6 +130,10 @@ nav a {
 }
 .navmargin {
   margin-bottom: 25px;
+}
+
+.indented-paragraph {
+  margin: 0 35px;
 }
 
 #galleryentrance {
@@ -208,6 +213,10 @@ h3 {
   background-color: #000000;
 }
 
+#newsroom {
+  margin-left: 35px;
+}
+
 #bioblock {
   margin: 40px auto;
   border-top: solid 1px #ffffff;
@@ -218,6 +227,7 @@ h3 {
   width: 50%;
   margin-right: 50px;
   margin-bottom: 25px;
+  margin-left: 35px;
 }
 
 .biopic {
