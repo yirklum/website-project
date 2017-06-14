@@ -2,6 +2,8 @@ $(document).ready(function(){
 	
 	console.log("get document ready");
 
+	/* Homepage Categories */
+
 	$("#show-thisjustin").click(function () {
 		$("#thisjustin").show();
 		$(this).hide();
@@ -74,6 +76,8 @@ $(document).ready(function(){
 		$("#show-newsgatheringtools").show();
 	});
 
+	/* Contact Forms */
+
 	$("form").submit(function(event){
 
         var firstName = $("#firstName").val();
@@ -106,5 +110,26 @@ $(document).ready(function(){
         }
 
     });
+
+    // Get the modal
+	var modal = document.getElementById('shatteredGlassModal');
+
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var img = document.getElementById('shatteredGlass');
+	var modalImg = document.getElementById("shatteredGlassImage");
+	var captionText = document.getElementById("shatteredGlassCaption");
+	img.onclick = function(){
+	    modal.style.display = "block";
+	    modalImg.src = this.src;
+	    captionText.innerHTML = this.alt;
+	}
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() { 
+	  modal.style.display = "none";
+	}
 
 });
