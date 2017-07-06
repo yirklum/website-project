@@ -101,7 +101,7 @@ nav {
 
 nav ul li {
   display: inline-block;
-  margin: 0 40px 0 50px;
+  margin: 0 20px 0 20px;
   padding: 10px;
 }
 
@@ -128,6 +128,7 @@ nav a {
   margin: 20px;
   font-size: 24px;
   color: #ffffff;
+  text-align: left;
 }
 
 #name {
@@ -143,34 +144,38 @@ nav a {
   margin: 0 35px;
 }
 
-#galleryentrance {
-  margin: 25px auto;
-  background: #000000;
+#navigation-section {
+  margin: 25px 0px 20px 20px;
+  line-height: 30px;
+  border-bottom: 15px;
 }
 
-#gallerytitle {
-  padding-top: 25px;
-}
-
-.galleries {
-  padding: 30px 30px 43px 30px;
+.navigation-instructions {
+  padding: 5px 30px 30px 10px;
   float: left;
   width: 45%;
-  border: solid 1px #000000;
-  background-color: #000000;
-  color: #ffffff;
 }
 
-#gallerygraphic {
+.navigation-graphic {
   float: left;
+  margin: 15px 15px 15px 0px;
 }
 
-.button {
-  float: right;
-  color: #ffff00;
+#history-instructions {
+  margin: 0 25px 0 0;
 }
 
-  h2 {
+#updates {
+  border-top: solid 1px #ffffff;
+  padding-top: 25px;
+  margin: 25px auto;
+}
+
+.paragraph {
+  margin: 25px;
+}
+
+h2 {
   text-align: center;
   color: #ff0000;
   font-size: 38px;
@@ -191,11 +196,18 @@ h3 {
   text-align: justify;
 }
 
+/*History*/
+
+#history-title {
+  padding-left: 235px;
+  font-size: 26px;
+}
+
 .smallbox {
   width: 33%;
   float: left;
   display: inline-block;
-  margin: 15px auto;
+  margin: 40px auto;
   padding-right: 20px;
 }
 
@@ -224,9 +236,17 @@ h3 {
   margin-left: 35px;
 }
 
+#collage img {
+  width: 50%;
+  float: left;
+}
+
+/*About*/
+
 #bioblock {
   margin: 40px auto;
   border-top: solid 1px #ffffff;
+  padding-bottom: 600px;
 }
 
 .bio {
@@ -240,11 +260,6 @@ h3 {
 .biopic {
   float: left;
   padding-top: 85px;
-}
-
-#collage img {
-  width: 50%;
-  float: left;
 }
 
 /* Contact */
@@ -274,17 +289,6 @@ form {
 
 /* Newsfeed */
 
-.newsfeed-title {
-  float: left;
-  width: 53%;
-  background-color: #C0C0C0;
-  color: #000000;
-  font-size: 24px;
-  padding: 50px 30px 0 30px;
-  height: 279px;
-  text-align: center;
-}
-
 #mission {
   color: #ff0000;
   font-size: 30px;
@@ -297,14 +301,14 @@ form {
   font-weight: 800;
 }
 
-.newsfeed-map {
-  float: right;
-  width: 40%;
-  height: auto;
-}
-
 #nfh {
   margin-bottom: 25px;
+}
+
+#foodMap {
+    width: 27.3%;
+    border: solid 2px #ff0000;
+    float: right;
 }
 
 .intro {
@@ -485,9 +489,33 @@ h5 a {
   color: #000000;
 }
 
+/*Food Map*/
+
+#large-food-map {
+  padding-top: 25px;
+}
+
+.close {
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a .close {
+  color: #000000;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* That's The Way It Was */
 
-#history-title {
+#attwiw-title {
   font-size: 52px;
 }
 
@@ -701,6 +729,12 @@ h5 a {
 
 .item-pages {
   margin: 25px auto;
+}
+
+.item-image {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
 }
 
 /* Footer */
