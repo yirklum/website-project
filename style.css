@@ -502,10 +502,6 @@ h5 a {
     font-weight: bold;
 }
 
-a .close {
-  color: #000000;
-}
-
 .close:hover,
 .close:focus {
     color: #bbb;
