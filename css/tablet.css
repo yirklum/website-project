@@ -1,0 +1,993 @@
+@media (min-width: 768px) {
+	/* tablet portrait */
+	/******************************************
+/* BASE STYLES
+/*******************************************/
+
+  body {
+    max-width: 768px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+  /* Header */
+
+  header {
+    padding-bottom: 125px;
+  }
+
+  .title {
+    font-size: 24px;
+    padding-top: 25px;
+    padding-left: 30px;
+  }
+
+  .logo {
+    font-size: 44px;
+  }
+
+  #header-photo {
+  	max-width: 83%;
+  	float: right;
+  }
+
+  .headergraphic-left {
+  	max-width: 46%;
+  }
+
+  .centered-title {
+    padding-left: 70px;
+  }
+
+  #welcome-to {
+    padding-left:55px;
+  }
+
+  /* Navigation Menu */
+
+  nav {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  nav ul li {
+    margin: 0 9px 0 9px;
+  }
+
+  /* Homepage */
+
+  .topbox {
+    min-height: 400px;
+    padding: 10px;
+  }
+
+  .welcome {
+    width: 275px;
+    padding: 24px;
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .navmargin {
+    margin-bottom: 25px;
+  }
+
+  .indented-paragraph {
+    margin: 0 35px;
+  }
+
+  #ads {
+    margin: 15px 35px 25px 35px;
+  }
+
+  #newconcept {
+  	max-width: 60%;
+  }
+
+  #newsroom {
+    margin-left: 5px;
+    max-width: 35%;
+    padding-bottom: 17px;
+  }
+
+  #navigation-section {
+    margin: 25px 0px 25px 0px;
+    line-height: 24px;
+    border-bottom: 15px;
+  }
+
+  .navigation-instructions {
+    padding: 5px 0px 0px 5px;
+    width: 45%;
+  }
+
+  .navigation-graphic {
+    margin: 15px 10px 15px 0px;
+    max-width: 45%;
+  }
+
+  #history-instructions {
+    padding-right: 40px;
+  
+  }
+
+  #updates {
+    padding-top: 25px;
+    margin: 25px auto;
+  }
+
+  .paragraph {
+    margin: 25px;
+  }
+
+  h2 {
+    font-size: 36px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+  }
+
+  h3 {
+    font-size:26px;
+  }
+
+  h3 a {
+    font-size: 26px;
+  }
+
+  /*History*/
+
+  #history-title {
+    padding-left: 235px;
+    font-size: 26px;
+  }
+
+  .smallbox {
+    width: 33%;
+    margin: 40px auto;
+    padding-right: 20px;
+  }
+
+  .category {
+    width: 45%;
+    margin: 15px 15px 15px 20px;
+  }
+
+  /*About*/
+
+  #bioblock {
+    margin: 40px auto;
+    padding-bottom: 775px;
+  }
+
+  #bioblock h2 {
+  	font-size: 32px;
+  }
+
+  .bio {
+    width: 50%;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+
+  .biopic {
+    padding-top: 80px;
+  }
+
+  /* Contact */
+
+  #contact-photo {
+  	max-width: 84%;
+  }
+
+  .contact-title {
+    padding-left: 65px;
+  }
+
+  form {
+    margin: 25px 15px 25px 125px;
+  }
+
+  #note {
+    width: 45%;
+    padding: 25px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  #notephoto {
+    margin: 25px 15px 50px 15px;
+    max-width: 375px;
+  }
+
+  /* Newsfeed */
+
+  #traveling {
+  	display: none;
+  }
+
+  #mission {
+    font-size: 30px;
+    line-height: 1.7;
+  }
+
+  #guide {
+    font-size: 30px;
+  }
+
+  #nfh {
+    margin-bottom: 25px;
+  }
+
+  #foodMap {
+      width: 28.5%;
+  }
+
+  .intro {
+    margin: 25px 25px 25px 70px;
+    width: 85%;
+  }
+
+  .latest-review {
+    padding: 25px 0;
+    margin: 30px auto;
+  }
+
+  #review-title {
+    width: 750px;
+    padding: 30px;
+    margin-left: 15px;
+  }
+
+  .food-intro {
+    margin-top: 15px;
+  }
+
+  .review {
+    padding: 40px 0px 0px 55px;
+    height: 550px;
+  }
+
+  .food-review {
+    width: 45%;
+    padding-right: 25px;
+    font-size: 15px;
+  }
+
+  .caption {
+  	font-size: 15px;
+  }
+
+  .food-photo {
+    width: 45%;
+    padding-left: 45px;
+    padding-top: 55px;
+  }
+
+  h6 {
+    font-size: 22px;
+  }
+
+  .address {
+    padding: 15px 0;
+  }
+
+  .right-page {
+    margin-left: 35px;
+  }
+
+  #mid-atlantic {
+    width: 23%;
+    min-height: 125px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 5px;
+  }
+
+  #midwest {
+    width: 23%;
+    min-height: 125px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 5px;
+  }
+
+  #northeast {
+    width: 23%;
+    min-height: 125px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 5px;
+  }
+
+  #pacific-northwest {
+    width: 23%;
+    min-height: 125px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 5px;
+  }
+
+  #southeast {
+    width: 23%;
+    min-height: 125px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 5px;
+  }
+
+  #southwest {
+    width: 23%;
+    min-height: 125px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 5px;
+  }
+
+  #west {
+    width: 23%;
+    min-height: 125px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 5px;
+  }
+
+  #international {
+    width: 23%;
+    min-height: 125px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 5px;
+  }
+
+  .region h5 {
+    font-size: 18px;
+  }
+
+  /*Food Map*/
+
+  #large-food-map {
+    padding-top: 25px;
+    max-width: 725px;
+  }
+
+  .close {
+      top: 15px;
+      right: 35px;
+      font-size: 40px;
+  }
+
+  /* That's The Way It Was */
+
+  #attwiw-title {
+    font-size: 36px;
+  }
+
+  .history-article {
+    width: 750px;
+    padding-left: 25px;
+  }
+
+  .article-image {
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+
+  /* Conflict Gallery */
+
+  .navigation-bar {
+    margin-top: 25px;
+    padding-top: 5px;
+    font-size: 14px;
+  }
+
+  .next-item {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  #gulf-wars {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #balkan-wars {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #afghanistan {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #arab-israeli-conflict {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #chechnya {
+    width: 32%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #other-conflicts {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  .conflict-category h5 {
+    font-size: 20px;
+    margin-top: 125px;
+  }
+
+  /* Memorabilia Category Pages */
+
+  .gallery-layout {
+    margin-bottom: 25px;
+  }
+
+  .gallery-section-intro {
+    margin: 25px 0;
+  }
+
+  /* Memorabilia Item Pages */
+
+  .item-pages {
+    margin: 25px auto;
+  }
+
+  .item-image {
+    margin-right: 20px;
+  }
+
+  /*Newsgathering Tools*/
+
+  #ngt {
+  	font-size: 42px;
+  }
+  /* Footer */
+
+  footer {
+    padding: 30px;
+  }
+
+  .footerbox {
+    width: 33%;
+  }
+
+  footer ul li {
+    margin: 25px auto;
+  }
+
+  h4 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  footer p {
+    font-size: 24px;
+  }
+
+}
+
+@media(min-width: 1024px) {
+	/* tablet landscape */
+
+	/******************************************
+/* BASE STYLES
+/*******************************************/
+
+  body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+  /* Header */
+
+  header {
+    padding-bottom: 150px;
+  }
+
+  .title {
+    font-size: 24px;
+    padding-top: 25px;
+    padding-left: 30px;
+  }
+
+  .logo {
+    font-size: 60px;
+  }
+
+  #header-photo {
+   max-width: 100%;
+  }
+
+  .centered-title {
+    padding-left: 70px;
+  }
+
+  .headergraphic-left {
+
+  }
+
+  .contact-title {
+    padding-left: 125px;
+  }
+
+  #welcome-to {
+    padding-left:55px;
+  }
+
+  /* Navigation Menu */
+
+  nav {
+    padding: 10px;
+    font-size: 22px;
+  }
+
+  nav ul li {
+    margin: 0 20px 0 20px;
+    padding: 10px;
+  }
+
+  /* Homepage */
+
+  .topbox {
+    min-height: 500px;
+    padding: 10px;
+  }
+
+  .welcome {
+    width: 316px;
+    padding: 26px;
+    margin: 20px;
+    font-size: 24px;
+  }
+
+  .navmargin {
+    margin-bottom: 25px;
+  }
+
+  .indented-paragraph {
+    margin: 0 35px;
+  }
+
+  #navigation-section {
+    margin: 25px 0px 20px 20px;
+    line-height: 30px;
+    border-bottom: 15px;
+  }
+
+  .navigation-instructions {
+    padding: 5px 30px 30px 10px;
+    width: 45%;
+  }
+
+  .navigation-graphic {
+    margin: 15px 15px 15px 0px;
+  }
+
+  #history-instructions {
+    margin: 0 25px 0 0;
+  }
+
+  #updates {
+    padding-top: 25px;
+    margin: 25px auto;
+  }
+
+  .paragraph {
+    margin: 25px;
+  }
+
+  h2 {
+    font-size: 38px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+  }
+
+  h3 {
+    font-size:26px;
+  }
+
+    h3 a {
+    font-size: 26px;
+  }
+
+  /*History*/
+
+  #history-title {
+    padding-left: 235px;
+    font-size: 26px;
+  }
+
+  .smallbox {
+    width: 33%;
+    margin: 40px auto;
+    padding-right: 20px;
+  }
+
+  .category {
+    width: 45%;
+    margin: 15px 40px 15px 0;
+  }
+
+  #ads {
+    margin: 25px 75px 25px 45px;
+  }
+
+  #newsroom {
+    margin-left: 35px;
+  }
+
+  #collage img {
+    width: 50%;
+  }
+
+  /*About*/
+
+  #bioblock {
+    margin: 40px auto;
+    padding-bottom: 600px;
+  }
+
+  .bio {
+    width: 50%;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+  }
+
+  .biopic {
+    padding-top: 85px;
+  }
+
+  /* Contact */
+
+  #contact-photo {
+  	max-width: 100%;
+  }
+
+  form {
+    margin: 25px 25px 25px 125px;
+  }
+
+  #note {
+    width: 45%;
+    padding: 25px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  #notephoto {
+    margin: 25px;
+    margin-bottom: 50px;
+  }
+
+  /* Newsfeed */
+
+  #traveling {
+  	display: inline;
+  }
+
+  #mission {
+    font-size: 30px;
+    line-height: 1.7;
+  }
+
+  #guide {
+    font-size: 30px;
+  }
+
+  #nfh {
+    margin-bottom: 25px;
+  }
+
+  #foodMap {
+      width: 25.7%;
+  }
+
+  .intro {
+    margin: 25px 25px 25px 70px;
+    width: 85%;
+  }
+
+  .latest-review {
+    padding: 25px 0;
+    margin: 30px auto;
+  }
+
+  #review-title {
+    width: 850px;
+    padding: 30px;
+    margin-left: 50px;
+  }
+
+  .food-intro {
+    margin-top: 15px;
+  }
+
+  .review {
+    padding: 40px 0px 0px 55px;
+    height: 550px;
+  }
+
+  .food-review {
+    width: 45%;
+    padding-right: 25px;
+  }
+
+  .food-photo {
+    width: 45%;
+    padding-left: 45px;
+    padding-top: 55px;
+  }
+
+  h6 {
+    font-size: 22px;
+  }
+
+  .address {
+    padding: 15px 0;
+  }
+
+  .right-page {
+    margin-left: 35px;
+  }
+
+  #mid-atlantic {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #midwest {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #northeast {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #pacific-northwest {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #southeast {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #southwest {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #west {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #international {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  .region h5 {
+    font-size: 22px;
+  }
+
+  /*Food Map*/
+
+  #large-food-map {
+    padding-top: 25px;
+  }
+
+  .close {
+      top: 15px;
+      right: 35px;
+      font-size: 40px;
+  }
+
+  /* That's The Way It Was */
+
+  #attwiw-title {
+    font-size: 52px;
+  }
+
+  .history-article {
+    width: 900px;
+    padding-left: 50px;
+  }
+
+  .article-image {
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+
+  /* Conflict Gallery */
+
+  .navigation-bar {
+    margin-top: 25px;
+    padding-top: 5px;
+    font-size: 14px;
+  }
+
+  .next-item {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  #gulf-wars {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #balkan-wars {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #afghanistan {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #arab-israeli-conflict {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #chechnya {
+    width: 32%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #other-conflicts {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  .conflict-category h5 {
+    font-size: 22px;
+    margin-top: 125px;
+  }
+
+  /* Gallery Category Pages */
+
+  .gallery-layout {
+    margin-bottom: 25px;
+  }
+
+  .gallery-section-intro {
+    margin: 25px 0;
+  }
+
+  /* Gallery Item Pages */
+
+  .item-pages {
+    margin: 25px auto;
+  }
+
+  .item-image {
+    margin-right: 20px;
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 30px;
+  }
+
+  .footerbox {
+    width: 33%;
+  }
+
+  footer ul li {
+    margin: 25px auto;
+  }
+
+  h4 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  footer p {
+    font-size: 24px;
+  }
+
+}

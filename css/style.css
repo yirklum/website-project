@@ -1,0 +1,817 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Special Elite', cursive;
+  font-size: 18px;
+  line-height: 1.2;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 100%;
+  height: auto;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Header */
+
+header {
+  background-color: #C0C0C0;
+  padding-bottom: 150px;
+  border-top: solid 1px #000000;
+}
+
+.title {
+  color: #000000;
+  font-size: 24px;
+  float: left;
+  padding-top: 25px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: 800;
+  color: #ff0000;
+}
+
+.centered-title {
+  padding-left: 70px;
+}
+
+.contact-title {
+  padding-left: 125px;
+}
+
+
+.headergraphic {
+  float: right;
+}
+
+#header-photo {
+  border: solid 2px #ff0000;
+}
+
+#welcome-to {
+  padding-left:55px;
+}
+
+/* Navigation Menu */
+
+nav {
+  background-color: #000080;
+  padding: 10px;
+  font-size: 22px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  padding: 10px;
+}
+
+nav a {
+   color: #ffff00;
+}
+
+/* Homepage */
+
+.topbox {
+  background-image: url("images/CoverPhotos/museum-entrance.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  padding: 10px;
+  color: #000000;
+}
+
+.welcome {
+  width: 316px;
+  float: left;
+  background-color: #000000;
+  padding: 26px;
+  margin: 20px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: left;
+}
+
+#name {
+  font-weight: 800;
+  font-style: italic;
+  color: #ff0000;
+}
+.navmargin {
+  margin-bottom: 25px;
+}
+
+.indented-paragraph {
+  margin: 0 35px;
+}
+
+#navigation-section {
+  margin: 25px 0px 20px 20px;
+  line-height: 30px;
+  border-bottom: 15px;
+}
+
+.navigation-instructions {
+  padding: 5px 30px 30px 10px;
+  float: left;
+  width: 45%;
+}
+
+.navigation-graphic {
+  float: left;
+  margin: 15px 15px 15px 0px;
+}
+
+#history-instructions {
+  margin: 0 25px 0 0;
+}
+
+#updates {
+  border-top: solid 1px #ffffff;
+  padding-top: 25px;
+  margin: 25px auto;
+}
+
+.paragraph {
+  margin: 25px;
+}
+
+h2 {
+  text-align: center;
+  color: #ff0000;
+  font-size: 38px;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size:26px;
+  text-align: center;
+}
+
+  h3 a {
+  font-size: 26px;
+  color: #ff0000;
+  font-weight: 800;
+  text-align: justify;
+}
+
+/*History*/
+
+#history-title {
+  padding-left: 235px;
+  font-size: 26px;
+}
+
+.smallbox {
+  width: 33%;
+  float: left;
+  display: inline-block;
+  margin: 40px auto;
+  padding-right: 20px;
+}
+
+.smallbox h3 {
+  text-align: left;
+}
+
+.category {
+  width: 45%;
+  box-sizing: border-box;
+  float: left;
+  margin: 15px 40px 15px 0;
+}
+
+.highlighted-name {
+  color: #ff0000;
+  font-style: italic;
+}
+
+#ads {
+  margin: 25px 75px 25px 45px;
+  background-color: #000000;
+}
+
+#newsroom {
+  margin-left: 35px;
+}
+
+#collage img {
+  width: 50%;
+  float: left;
+}
+
+/*About*/
+
+#bioblock {
+  margin: 40px auto;
+  border-top: solid 1px #ffffff;
+  padding-bottom: 600px;
+}
+
+.bio {
+  float: left;
+  width: 50%;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  margin-left: 35px;
+}
+
+.biopic {
+  float: left;
+  padding-top: 85px;
+}
+
+/* Contact */
+
+form {
+  margin: 25px 25px 25px 125px;
+}
+
+#note {
+  float: left;
+  width: 45%;
+  padding: 25px;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+#notephoto {
+  float: left;
+  margin: 25px;
+  margin-bottom: 50px;
+  border: solid 2px red;
+}
+
+.headergraphic-left {
+  float: left;
+}
+
+/* Newsfeed */
+
+#mission {
+  color: #ff0000;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.7;
+}
+
+#guide {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#nfh {
+  margin-bottom: 25px;
+}
+
+#foodMap {
+    width: 27.3%;
+    border: solid 2px #ff0000;
+    float: right;
+}
+
+.intro {
+  margin: 25px 25px 25px 70px;
+  width: 85%;
+}
+
+.latest-review {
+  font-family: 'Kalam', cursive;
+  background-repeat: no-repeat;
+  border-top: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;
+  padding: 25px 0;
+  margin: 30px auto;
+}
+
+#review-title {
+  background-image: url("images/Graphics/Map-banner.jpeg");
+  background-size: cover;
+  width: 850px;
+  padding: 30px;
+  margin-left: 50px;
+}
+
+.food-intro {
+  margin-top: 15px;
+}
+
+.review {
+  padding: 40px 0px 0px 55px;
+  background-image: url("images/Graphics/Vintage-Notebook.jpeg");
+  background-size: cover;
+  color: #000000;
+  height: 550px;
+}
+
+.food-review {
+  width: 45%;
+  float: left;
+  padding-right: 25px;
+}
+
+.food-photo {
+  width: 45%;
+  float: left;
+  padding-left: 45px;
+  padding-top: 55px;
+}
+
+.food-photo img {
+  border: solid 1px #000000
+}
+
+h6 {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.address {
+  font-weight: 800;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.right-page {
+  margin-left: 35px;
+}
+
+#mid-atlantic {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Seafood.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#midwest {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Dutch-baby.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#northeast {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Bagel-and-lox.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#pacific-northwest {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Salmon.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#southeast {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Fried-chicken-and-gravy.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#southwest {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Mexican-corn.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#west {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Steak.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#international {
+  display: inline-block;
+  width: 23%;
+  background-image: url("images/CoverPhotos/Dumplings.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+.region {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+}
+
+.region h5 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+}
+
+h5 a {
+  color: #000000;
+}
+
+/*Food Map*/
+
+#large-food-map {
+  padding-top: 25px;
+}
+
+.close {
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* That's The Way It Was */
+
+#attwiw-title {
+  font-size: 52px;
+}
+
+.history-article {
+  width: 900px;
+  padding-left: 50px;
+}
+
+.article {
+  float: left;
+}
+
+.article-image {
+  float: right;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+/* Conflict Gallery */
+
+.navigation-bar {
+  margin-top: 25px;
+  border-top: solid 1px #808080;
+  border-bottom: solid 1px #808080;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.navigation-bar a {
+  color: #ffffff;
+}
+
+.next-item {
+  font-size: 14px;
+  margin-top: 5px;
+  border-bottom: solid 1px #808080;
+}
+
+.next-item a {
+  color: #ffffff;
+}
+
+#gulf-wars {
+  display: inline-block;
+  width: 30%;
+  background-image: url("images/Galleries/soldiers-iraq.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#balkan-wars {
+  display: inline-block;
+  width: 30%;
+  background-image: url("images/Galleries/christiane-children-sarajevo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#afghanistan {
+  display: inline-block;
+  width: 30%;
+  background-image: url("images/Galleries/afghan-friends.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#arab-israeli-conflict {
+  display: inline-block;
+  width: 30%;
+  background-image: url("images/Galleries/Arafat.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#chechnya {
+  display: inline-block;
+  width: 32%;
+  background-image: url("images/Galleries/Grozny-presidential-palace.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+#other-conflicts {
+  display: inline-block;
+  width: 30%;
+  background-image: url("images/Galleries/haiti-aircraft-carrier.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  margin: 25px auto;
+  padding-top: 50px;
+  margin-right: 15px;
+}
+
+.conflict-category {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+}
+
+.conflict-category h5 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 125px;
+}
+
+/* Gallery Category Pages */
+
+.gallery-item {
+  display: inline-block;
+}
+
+.gallery-layout {
+  margin-bottom: 25px;
+}
+
+.gallery-section-intro {
+  margin: 25px 0;
+}
+
+.inline-photos {
+  display: inline-block;
+}
+
+/* Gallery Item Pages */
+
+/* Style the Image Used to Trigger the Modal */
+#shatteredGlass {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#shatteredGlass:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#shatteredGlassCaption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #shatteredGlassCaption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.item-pages {
+  margin: 25px auto;
+}
+
+.item-image {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #C0C0C0;
+  padding: 30px;
+  text-align: center;
+}
+
+.footerbox {
+  float: left;
+  width: 33%;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 25px auto;
+}
+
+h4 {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+footer p {
+  font-size: 24px;
+  color: #000000;
+}
+
+.showless {
+  display: none;
+}
+
+.show-hide {
+  font-style: italic;
+  margin: 10px auto;
+}
+
+.show-hide:hover {
+  color: gray;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
