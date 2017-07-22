@@ -40,6 +40,7 @@
 
   .logo {
     font-size: 60px;
+    margin-left: 100px;
   }
 
   #header-photo {
@@ -66,7 +67,7 @@
   }
 
   nav ul li {
-    margin: 0 20px 0 20px;
+    margin: 0 45px 0 45px;
     padding: 10px;
   }
 
@@ -93,22 +94,22 @@
   }
 
   #ads {
-    margin: 25px 75px 25px 45px;
+    margin: 25px 75px 25px 150px;
   }
 
   #newsroom {
-    margin-left: 35px;
+    margin-left: 50px;
   }
 
   #navigation-section {
-    margin: 25px 0px 20px 20px;
-    line-height: 30px;
+    margin: 25px 0px 20px 45px;
+    line-height: 40px;
     border-bottom: 15px;
   }
 
   .navigation-instructions {
     padding: 5px 30px 30px 10px;
-    width: 45%;
+    width: 50%;
   }
 
   .navigation-graphic {
@@ -117,6 +118,7 @@
 
   #history-instructions {
     margin: 0 25px 0 0;
+    width: 1100px;
   }
 
   #updates {
@@ -142,6 +144,13 @@
     font-size: 26px;
   }
 
+  /*Memorabilia*/
+
+  .category {
+    width: 45%;
+    margin: 15px 40px 15px 0;
+  }
+
   /*History*/
 
   #history-title {
@@ -149,15 +158,15 @@
     font-size: 26px;
   }
 
-  .smallbox {
-    width: 33%;
-    margin: 40px auto;
-    padding-right: 20px;
+  .history-category {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 15px;
   }
 
-  .category {
-    width: 45%;
-    margin: 15px 40px 15px 0;
+  .body-text {
+    padding-top: 25px;
   }
 
   /*About*/
