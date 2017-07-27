@@ -142,6 +142,12 @@ h3 a {
   text-align: justify;
 }
 
+/*Memorabilia*/
+
+.category {
+  width: 47%;
+}
+
 /*History*/
 
 .smallbox {
@@ -200,9 +206,9 @@ h3 a {
   float: left;
 }
 
-  #contact-photo {
+#contact-photo {
     max-width: 100%;
-  }
+}
 
 /* Newsfeed */
 
@@ -348,12 +354,8 @@ h5 a {
 
 /* That's The Way It Was */
 
-.article {
-  float: left;
-}
-
-.article-image {
-  float: right;
+.newspaper {
+  padding-left: 140px;
 }
 
 /* Conflict Gallery */
@@ -378,7 +380,7 @@ h5 a {
 #gulf-wars {
   display: inline-block;
   width: 30%;
-  background-image: url("../images/Galleries/soldiers-iraq.jpeg");
+  background-image: url("../images/Galleries/Arnett.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -386,7 +388,7 @@ h5 a {
 #balkan-wars {
   display: inline-block;
   width: 30%;
-  background-image: url("../images/Galleries/christiane-children-sarajevo.jpeg");
+  background-image: url("../images/Galleries/CA-at-airport.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -407,7 +409,7 @@ h5 a {
 
 #chechnya {
   display: inline-block;
-  background-image: url("../images/Galleries/Grozny-presidential-palace.jpeg");
+  background-image: url("../images/Galleries/Grozny.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -433,11 +435,14 @@ h5 a {
 
 .gallery-item {
   display: inline-block;
+  width: 20%;
+  padding-bottom: 15px;
 }
 
 .inline-photos {
   display: inline-block;
 }
+
 
 /* Gallery Item Pages */
 
@@ -531,6 +536,81 @@ h5 a {
 .item-image {
   display: inline-block;
   float: left;
+}
+
+/* Politics Gallery */
+
+#pre-1980 {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/Nixon.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#reagan {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/santa-barbara.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hwbush {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/hw-bush-speech.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#clinton {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/HRC.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wbush {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/George-W-Bush.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#obama {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/Obama.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trump {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/Trump-interview.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#foreign-politics {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/yeltsin-presidential-pinback.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pence {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/pence-trump.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
 }
 
 /* Footer */
@@ -1027,6 +1107,72 @@ footer p {
 
   .item-image {
     margin-right: 20px;
+  }
+
+  /* Politics Gallery */
+
+  #pre-1980 {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #reagan {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #hwbush {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #clinton {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #wbush {
+    width: 32%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #obama {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #trump {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #foreign-politics {
+    width: 32%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
   }
 
   /* Footer */
