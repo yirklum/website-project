@@ -359,8 +359,13 @@ h5 a {
 /* That's The Way It Was */
 
 .newspaper {
-  padding-left: 140px;
+    padding-left: 50px;
 }
+
+.newspaper img {
+    width: 95%;
+}
+
 
 /* Conflict Gallery */
 
