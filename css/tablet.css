@@ -383,20 +383,35 @@
       font-size: 40px;
   }
 
-  /* That's The Way It Was */
+   /* That's The Way It Was */
 
-  #attwiw-title {
-    font-size: 36px;
+  .newspaper {
+      padding-left: 50px;
   }
 
-  .history-article {
-    width: 750px;
-    padding-left: 25px;
+  .newspaper img {
+      width: 95%;
   }
 
-  .article-image {
-    padding-left: 25px;
-    padding-bottom: 25px;
+  /* For More On The Story */
+
+  .text-left {
+    width: 50%;
+    line-height: 34px;
+  }
+
+  .text {
+    line-height: 34px;
+    margin: 15px 0;
+  }
+
+  #pinata {
+    width: 45%;
+    margin: 5px 0 25px 35px;
+  }
+
+  #trump-toilet-paper {
+    margin-right: 45px;
   }
 
   /* Conflict Gallery */
@@ -892,20 +907,35 @@
       font-size: 40px;
   }
 
-  /* That's The Way It Was */
+ /* That's The Way It Was */
 
-  #attwiw-title {
-    font-size: 52px;
+  .newspaper {
+      padding-left: 50px;
   }
 
-  .history-article {
-    width: 900px;
-    padding-left: 50px;
+  .newspaper img {
+      width: 95%;
   }
 
-  .article-image {
-    padding-left: 25px;
-    padding-bottom: 25px;
+  /* For More On The Story */
+
+  .text-left {
+    width: 50%;
+    line-height: 34px;
+  }
+
+  .text {
+    line-height: 34px;
+    margin: 15px 0;
+  }
+
+  #pinata {
+    width: 45%;
+    margin: 5px 0 25px 35px;
+  }
+
+  #trump-toilet-paper {
+    margin-right: 45px;
   }
 
   /* Conflict Gallery */
