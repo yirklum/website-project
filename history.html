@@ -11,6 +11,16 @@
 		<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker" rel="stylesheet">
+
+		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
+		<script src="script.js"></script>
+
+		<!-- Insert to your webpage before the </head> -->
+	    <script src="sliderengine/jquery.js"></script>
+	    <script src="sliderengine/amazingslider.js"></script>
+	    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+	    <script src="sliderengine/initslider-1.js"></script>
+	    <!-- End of head section HTML codes -->
 	</head>
 	
 	<body>
@@ -19,7 +29,7 @@
 				<div class="title" id="history-title">
 					<h1 class="logo">History</h1>
 				
-					<p>A Look Into The Past</p>
+					<p class="subtitle">A Look Into The Past</p>
 				</div>
 
 				<div class="headergraphic">
@@ -45,6 +55,117 @@
 			</ul>
 		</nav>
 
+		<p id="slide-show-title">The Evolution of Television News</p>
+
+		<section id="news-timeline">
+			<!-- Insert to your webpage where you want to display the slider -->
+		    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1200px;padding-left:0px; padding-right:250px;margin:0px auto 0px;">
+		        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+		            <ul class="amazingslider-slides" style="display:none;">
+		                <li><img src="images/baird-jenkins.jpeg" alt="Invention of Mechanical Television"  title="Invention of Mechanical Television" data-description="John Logie Baird (left) gave the first public demonstration of a mechanical television at Selfridge&apos;s department store in London on March 25, 1925. He transmitted an image of a ventriloquist dummy, named Stooky Bill. Charles Francis Jenkins (right) also publicly transmitted an image using a mechanical television at his lab in Washington, DC that year." />
+		                </li>
+		                <li><img src="images/farnsworth-zworykin.jpeg" alt="Invention of Electronic Television"  title="Invention of Electronic Television" data-description="Philo Farnsworth (left) transmitted the the first image from an all-electronic television in San Francisco on September 7, 1927. He would carry out a public demonstration of electronic television technology at the Franklin Institute in Philadelphia in 1934. Vladimir K. Zworykin (right, in 1929) was another pioneer of electronic television. He developed the kinescope, the cathode ray tube used in television sets." />
+		                </li>
+		                <li><img src="images/felix-the-cat.jpeg" alt="First Television Station Launched"  title="First Television Station Launched" data-description="One of the world&apos;s first television stations was founded on January 13, 1928. General Electric set up an experimental station, W2XB, in Schenectady, New York. While engineers tested new technology, they broadcast an image of a Felix the Cat figurine, rotating on a turntable." />
+		                </li>
+		                <li><img src="images/long-beach-earthquake.jpeg" alt="Long Beach Earthquake"  title="Long Beach Earthquake" data-description="Los Angeles station W6XAO broadcast footage of the aftermath of an earthquake in Long Beach, California, which struck on March 10, 1933. This was the first documented instance of television  coverage of a news event." />
+		                </li>
+		                <li><img src="images/1936-berlin-olympics.jpeg" alt="1936 Berlin Olympics"  title="1936 Berlin Olympics" data-description="In the summer of 1936 the Berlin Olympics became the world&apos;s first sports event to be televised live. The games were covered by German firms Telefunken and Fernseh, using RCA equipment. Several viewing stations were set up around Berlin and Potsdam for spectators. While Adolf Hitler intended to use the event as a showcase of Aryan racial superiority, the most successful athlete of the games was African-American track star Jesse Owens (center, left)." />
+		                </li>
+		                <li><img src="images/bbc-tv-alexandra-palace.jpg" alt="Launch of BBC Television"  title="Launch of BBC Television" data-description="The British Broadcasting Company launched the world&apos;s first regular high-definition television service on November 2, 1936 from Alexandra Palace in London (left). Engineers worked from control rooms set up in the palace (right). However, BBC television was suspended from 1939-1946. The British goverment was concerned that transmission signals could be used as beacons for German warplanes. In addition, engineers were needed for the war effort." />
+		                </li>
+		                <li><img src="images/roosevelt-1939-world%27s-fair.jpeg" alt="1939 World&apos;s Fair"  title="1939 World&apos;s Fair" data-description="RCA set up a pavilion to introduce television to the mass public at the World&apos;s Fair in New York City, which began on April 30, 1939. The opening ceremony was televised, including a speech by President Franklin Roosevelt (right, facing away), the first president to appear on television." />
+		                </li>
+		                <li><img src="images/first-mass-tv.jpg" alt="First Mass-Produced Television Set"  title="First Mass-Produced Television Set" data-description="The RCA 630-TS (pictured) was the first mass-produced television set offered to the public. It was produced from 1946 to 1949. This model featured a 10-inch screen (large for its time) and had an initial selling price of $435. Despite the high price, thousands of models were sold." />
+		                </li>
+		                <li><img src="images/meet-the-press.jpeg" alt="Meet the Press"  title="Meet the Press" data-description="Meet the Press, the longest running show in television history, debuted on November 6, 1947 on NBC. Taped in Washington, DC, it features interviews and panel discussions on a range of topics, from politics, economics, foreign policy and public affairs. It was originally hosted by Martha Rountree (third from right), although it has since had several different moderators." />
+		                </li>
+		                <li><img src="images/truman-convention.jpg" alt="1948 Presidential Conventions"  title="1948 Presidential Conventions" data-description="The presidential nominating conventions of 1948 were the first to be covered by television news. Three hundred journalists and technicians descended on Philadelphia to cover the nomination of Thomas Dewey by Republicans from June 21-25 and Harry Truman (pictured, left) by Democrats from July 12-14. Once television began broadcasting the conventions, these events became highly choreographed presentations. The 1948 conventions were the last to to be held in venues with no air-conditioning: the hot television lights led to noticable sweat stains on speakers and delegates." />
+		                </li>
+		                <li><img src="images/camel-caravan.jpg" alt="Camel News Caravan"  title="Camel News Caravan" data-description="On February 16, 1948, the first network news show, NBC Television Newsreel, was launched. Later called Camel Newsreel Theater, it played newsreels with voiceovers by John Cameron Swayze (seated behind the desk). On February 14, 1949 The Camel News Caravan debuted. It featured Swayze reading the news and used NBC produced news content, rather than newsreels. As part of its sponsorship for the show, Camel required that Swayze always have a burning cigarette visible onscreen." />
+		                </li>
+		                <li><img src="images/1954-TORP.jpeg" alt="First National Color Broadcast"  title="First National Color Broadcast" data-description="The first nationwide color television broadcast was aired on January 1, 1954. NBC used the newly-approved National Television System Committee (NTSC) to televise the Tournament of Roses Parade from Pasadena, California." />
+		                </li>
+		                <li><img src="images/see-it-now.jpg" alt="Murrow Denounces McCarthy"  title="Murrow Denounces McCarthy" data-description="During the late 1940s and early 1950s the Second Red Scare gripped the United States, as widespread paranoia about Communist infiltration abounded. The witchhunt for &quot;traitors&quot; was spearheaded by Sen. Joseph McCarthy (right), who used fear and intimidation to avoid criticism. However, on March 9, 1954 CBS journalist Edward R. Murrow (left) narrated a report on his show, See It Now, denouncing McCarthy and exposing his abuses. This helped change public opinion, which led to the end of McCarthy&apos;s career." />
+		                </li>
+		                <li><img src="images/kennedy-nixon-debate.jpeg" alt="Kennedy-Nixon Debates"  title="Kennedy-Nixon Debates" data-description="The Kennedy-Nixon debates were the first televised presidential debates. The first of the series of four debates was held in Chicago on September 26, 1960 and had an audience of 70 million viewers. Most political observers at the time felt John Kennedy won, largely due to the dishelveled, nervous appearance of Richard Nixon, who had been recently ill. After the debate, Kennedy gained a lead in the polls -- and politicians began preparing for television appearances much more carefully." />
+		                </li>
+		                <li><img src="images/jfk-assassination.jpg" alt="Kennedy Assassination"  title="Kennedy Assassination" data-description="On November 22, 1963 CBS anchor Walter Cronkite (left) reported the death of President John F. Kennedy, who had been assassinated in Dallas, Texas earlier in the day. The announcement, made after of hours of coverage of the attack, was an iconic moment in American and television history. Two days later the suspected assassin, Lee Harvey Oswald (right), was shot to death by Jack Ruby while being transported through Dallas Police Headquarters. The shooting was captured and aired live by a network television pool camera." />
+		                </li>
+		                <li><img src="images/bloody-sunday.jpeg" alt="Bloody Sunday"  title="Bloody Sunday" data-description="On March 7, 1965 a group of 600 people marching in support of voting rights, led by John Lewis (center, on the ground) and Hosea Williams, tried to cross the Edmund Pettus Bridge in Selma, Alabama. They were confronted by state troopers, who brutally beat them. The viciousness of the attack, which came to be known as Bloody Sunday, shocked many in America and around the world when it was aired on television. It contributed to the passage of the landmark Voting Rights Act five months later." />
+		                </li>
+		                <li><img src="images/cam-ne.jpg" alt="Morley Safer Reports from Cam Ne"  title="Morley Safer Reports from Cam Ne" data-description="The conflict in Vietnam has been referred to as America&apos;s first &quot;uncensored&quot; war. On August 3, 1965 CBS correspondent Morley Safer (left) reported on the destruction of the Vietnamese village of Cam Ne. Safer accompanied a group of U.S. Marines to the location, which they believed to be a source of enemy attacks. Although only women, children and old men were found, the Marines burned the village down. The report was the first glimpse many Americans had of the harsher side of the war and had a big effect on public opinion. After it aired, President Lyndon Johnson called up CBS President Frank Stanton and told him he had &quot;sh*t on the American flag.&quot;" />
+		                </li>
+		                <li><img src="images/pbs-shows.jpg" alt="Creation of Public Television"  title="Creation of Public Television" data-description="Following a recommendation by the Carnegie Commission to create a commercial-free public television network built around existing educational nonprofit stations, Congress created the government-funded Corporation for Public Broadcasting in 1967. Two years later, the Public Broadcasting System was created. In the subsequent decades, PBS has become known for high-quality news and educational programming, such as the MacNeil/Lehrer Newshour (left) and Sesame Street (right)." />
+		                </li>
+		                <li><img src="images/chicago-democratic-convention-rather.jpg" alt="1968 Democratic National Convention"  title="1968 Democratic National Convention" data-description="In August 1968 10,000 protesters converged on Chicago for the Democratic National Convention. Mayor Richard Daley deployed 23,000 police and National Guardsmen to counter the demonstrators and violence soon broke out. On August 28, Chicago police began beating the protesters and spraying large amounts of mace and tear gas. The entire event occured in front of television cameras, as the crowd chanted, &quot;The whole world is watching.&quot; Violence also occured inside the convention. CBS correspondet Dan Rather (left) was roughed up by security guards when he tried to interview a Georgia delegate being escorted out of the hall." />
+		                </li>
+		                <li><img src="images/1969-moon-landing.jpeg" alt="Apollo 11 Moon Landing"  title="Apollo 11 Moon Landing" data-description="The landing of Apollo 11 on the moon on July 20, 1969 was one of the most iconic television moments in history. An estimated half-billion television viewers (the largest ever at the time) watched Neil Armstrong become the first man to walk on the moon. While some at NASA argued against taking up precious room on the spacecraft with the equipment required to transmit pictures, the live broadcast was a huge public relations coup for both NASA and the United States." />
+		                </li>
+		                <li><img src="images/watergate.jpeg" alt="Watergate Hearings"  title="Watergate Hearings" data-description="Following the break-in at the Watergate complex in Washington, DC in June 1972 and the subsequent scandal engulfing the Nixon administration, a special Senate Committee held hearings on the burglary and possible illegal activities surrounding the 1972 election. The Watergate hearings (left) began on May 17, 1973 and attracted a massive amount of media coverage. PBS aired gavel-to-gavel coverage, airing all 250 hours of testimony. By August 19, 1974, Richard Nixon (right) was forced to resign in the face of impeachment." />
+		                </li>
+		                <li><img src="images/Barabara-walters.jpeg" alt="Barbara Walters Co-anchors the Evening News"  title="Barbara Walters Co-anchors the Evening News" data-description="On October 4, 1976 Barbara Walters (left) became the first woman to co-anchor an evening news broadcast, appearing on the ABC Nightly News. However, she faced hostility from many colleagues, including co-anchor Harry Reasoner (right), and only held the position for two years." />
+		                </li>
+		                <li><img src="images/cnn-launch.jpeg" alt="Ted Turner Launches CNN"  title="Ted Turner Launches CNN" data-description="On June 1, 1980 Ted Turner launched the Cable News Network, the first 24-hour all-news cable network. The network began with 1.7 million subscribers, but its operations and viewership has grown exponentially. As of 2017 its two dozen networks and services are available to 2 billion people in more than 200 countries and territories." />
+		                </li>
+		                <li><img src="images/diana-charles-carriage2.jpeg" alt="The Royal Wedding"  title="The Royal Wedding" data-description="The royal wedding of Lady Diana Spencer and Charles, the Prince of Wales, at St. Paul&apos;s Cathedral on July 29, 1981 was viewed by a global television audience of 750 million. Those ratings made the &quot;fairytale wedding&quot; the most watched television event up to that time." />
+		                </li>
+		                <li><img src="images/challenger-explosion.jpeg" alt="Challenger Explosion"  title="Challenger Explosion" data-description="On the morning of January 28, 1986 the space shuttle Challenger exploded 73 seconds after lift-off at the Kennedy Space Center in Florida, killing all seven crew members. The national tragedy was aired live on CNN. Students across the country were also watching the launch via a live NASA satellite feed, waiting to see Christa McAuliffe become the first teacher in space." />
+		                </li>
+		                <li><img src="images/baby-jessica.jpg" alt="Rescue of Baby Jessica"  title="Rescue of Baby Jessica" data-description="On October 14, 1987 18-month old Jessica McClure fell into a well in Midland, Texas. Rescue workers labored for 58 consecutive hours to free her, successfully bringing her to the surface on October 16. The media descended on Midland during the ordeal, making Baby Jessica a household name and transfixing the nation. CNN, then a fledgling network, provided around-the clock coverage of the rescue." />
+		                </li>
+		                <li><img src="images/tiananmen-square.jpeg" alt="Tiananmen Square Massacre"  title="Tiananmen Square Massacre" data-description="In the early hours of June 4, 1989, following weeks of student-led pro-democracy protests centered in Tiananmen Sqaure in Beijing, the Chinese government launched a bloody crackdown on the demonstrators. This marked the first time a popular uprising against an authoritarian state was aired live on television around the world. It was also an early example of the &quot;CNN effect&quot;, the idea that live coverage of an unfolding crisis could shape the way officials responded." />
+		                </li>
+		                <li><img src="images/gulf-war.jpeg" alt="Bombing of Baghdad"  title="Bombing of Baghdad" data-description="On the night of January 16, 1991, a U.S.-led coalition launched airstrikes against Iraq, in response to that country&apos;s invasion of Kuwait. During the first days of the bombing a team of CNN journalists, including correspondents Bernard Shaw, John Holliman and Peter Arnett, were able report live from the Al-Rashid Hotel in Baghdad. CNN&apos;s coverage of the first Gulf War helped to launch the network as a globally-known and respected source of news." />
+		                </li>
+		                <li><img src="images/rodney-king-la-riots.jpg" alt="Rodney King Beating and the LA Riots"  title="Rodney King Beating and the LA Riots" data-description="On March 3, 1991 members of the Los Angeles Police Department severely beat an African-American motorist, Rodney King; the incident was captured on a camcorder by a bystander, George Holliday. The videotape, and the subsequent trial of four police officers involved, received massive media attention. After the acquittal of the officers on April 29, 1992, six days of rioting erupted across Los Angeles. The mayhem led to widespread looting and fires, 63 deaths, 12,000 arrests and an estimated $1 billion in property damage." />
+		                </li>
+		                <li><img src="images/bronco-chase-oj-trial.jpg" alt="O.J. Simpson Case"  title="O.J. Simpson Case" data-description="On June 17, 1994, former football star and actor O.J. Simpson (right) was supposed to turn himself into the LAPD for the murders of Nicole Simpson and Ron Goldman. Instead, he fled with his friend, Al Cowlings, in his white Bronco (left). The subsequent low speed car chase involved twenty police cars, nine news helicopters, and 95 million viewers nationwide glued to their television sets. The subsequent &quot;trial of the century&quot;, which ran from January-October 1995, was heavily covered by television news." />
+		                </li>
+		                <li><img src="images/september-11.jpeg" alt="September 11, 2001"  title="September 11, 2001" data-description="On the morning of September 11, 2001 terrorists hijacked four planes and crashed them into the World Trade Center (pictured), the Pentagon, and a field in Pennsylvania. The attacks killed 2,997 people, injured thousands, destroyed large parts of lower Manhattan and caused $10 billion in property damage. The national tragedy recieved live, commercial free coverage from the major networks for four days." />
+		                </li>
+		                <li><img src="images/hurricane-katrina.jpg" alt="Hurricane Katrina"  title="Hurricane Katrina" data-description="Hurricane Katrina made landfall on the Gulf Coast on August 29, 2005, devastating multiple cities and leading to massive flooding in New Orleans. The hurricane killed 1,836 people and was the costliest natural disaster in the United States up to that time. The event and its aftermath, including the botched government response and efforts to rebuild, were closely covered by the news media." />
+		                </li>
+		            </ul>
+		            <ul class="amazingslider-thumbnails" style="display:none;">
+		                <li><img src="images/baird-jenkins-tn.jpeg" alt="Invention of Mechanical Television" title="Invention of Mechanical Television" /></li>
+		                <li><img src="images/farnsworth-zworykin-tn.jpeg" alt="Invention of Electronic Television" title="Invention of Electronic Television" /></li>
+		                <li><img src="images/felix-the-cat-tn.jpeg" alt="First Television Station Launched" title="First Television Station Launched" /></li>
+		                <li><img src="images/long-beach-earthquake-tn.jpeg" alt="Long Beach Earthquake" title="Long Beach Earthquake" /></li>
+		                <li><img src="images/1936-berlin-olympics-tn.jpeg" alt="1936 Berlin Olympics" title="1936 Berlin Olympics" /></li>
+		                <li><img src="images/bbc-tv-alexandra-palace-tn.jpg" alt="Launch of BBC Television" title="Launch of BBC Television" /></li>
+		                <li><img src="images/roosevelt-1939-world%27s-fair-tn.jpeg" alt="1939 World&apos;s Fair" title="1939 World&apos;s Fair" /></li>
+		                <li><img src="images/first-mass-tv-tn.jpg" alt="First Mass-Produced Television Set" title="First Mass-Produced Television Set" /></li>
+		                <li><img src="images/meet-the-press-tn.jpeg" alt="Meet the Press" title="Meet the Press" /></li>
+		                <li><img src="images/truman-convention-tn.jpg" alt="1948 Presidential Conventions" title="1948 Presidential Conventions" /></li>
+		                <li><img src="images/camel-caravan-tn.jpg" alt="Camel News Caravan" title="Camel News Caravan" /></li>
+		                <li><img src="images/1954-TORP-tn.jpeg" alt="First National Color Broadcast" title="First National Color Broadcast" /></li>
+		                <li><img src="images/see-it-now-tn.jpg" alt="Murrow Denounces McCarthy" title="Murrow Denounces McCarthy" /></li>
+		                <li><img src="images/kennedy-nixon-debate-tn.jpeg" alt="Kennedy-Nixon Debates" title="Kennedy-Nixon Debates" /></li>
+		                <li><img src="images/jfk-assassination-tn.jpg" alt="Kennedy Assassination" title="Kennedy Assassination" /></li>
+		                <li><img src="images/bloody-sunday-tn.jpeg" alt="Bloody Sunday" title="Bloody Sunday" /></li>
+		                <li><img src="images/cam-ne-tn.jpg" alt="Morley Safer Reports from Cam Ne" title="Morley Safer Reports from Cam Ne" /></li>
+		                <li><img src="images/pbs-shows-tn.jpg" alt="Creation of Public Television" title="Creation of Public Television" /></li>
+		                <li><img src="images/chicago-democratic-convention-rather-tn.jpg" alt="1968 Democratic National Convention" title="1968 Democratic National Convention" /></li>
+		                <li><img src="images/1969-moon-landing-tn.jpeg" alt="Apollo 11 Moon Landing" title="Apollo 11 Moon Landing" /></li>
+		                <li><img src="images/watergate-tn.jpeg" alt="Watergate Hearings" title="Watergate Hearings" /></li>
+		                <li><img src="images/Barabara-walters-tn.jpeg" alt="Barbara Walters Co-anchors the Evening News" title="Barbara Walters Co-anchors the Evening News" /></li>
+		                <li><img src="images/cnn-launch-tn.jpeg" alt="Ted Turner Launches CNN" title="Ted Turner Launches CNN" /></li>
+		                <li><img src="images/diana-charles-carriage2-tn.jpeg" alt="The Royal Wedding" title="The Royal Wedding" /></li>
+		                <li><img src="images/challenger-explosion-tn.jpeg" alt="Challenger Explosion" title="Challenger Explosion" /></li>
+		                <li><img src="images/baby-jessica-tn.jpg" alt="Rescue of Baby Jessica" title="Rescue of Baby Jessica" /></li>
+		                <li><img src="images/tiananmen-square-tn.jpeg" alt="Tiananmen Square Massacre" title="Tiananmen Square Massacre" /></li>
+		                <li><img src="images/gulf-war-tn.jpeg" alt="Bombing of Baghdad" title="Bombing of Baghdad" /></li>
+		                <li><img src="images/rodney-king-la-riots-tn.jpg" alt="Rodney King Beating and the LA Riots" title="Rodney King Beating and the LA Riots" /></li>
+		                <li><img src="images/bronco-chase-oj-trial-tn.jpg" alt="O.J. Simpson Case" title="O.J. Simpson Case" /></li>
+		                <li><img src="images/september-11-tn.jpeg" alt="September 11, 2001" title="September 11, 2001" /></li>
+		                <li><img src="images/hurricane-katrina-tn.jpg" alt="Hurricane Katrina" title="Hurricane Katrina" /></li>
+		            </ul>
+		        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive JavaScript Image Slider">Responsive JavaScript Image Slider</a></div>
+		        </div>
+		    </div>
+		    <!-- End of body section HTML codes -->
+		</section>    
 
 		<section class="body-text">	
 			<div class="clear">
@@ -105,9 +226,5 @@
 				</ul>
 			</div>
 		</footer>
-		
-		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
-		
-		<script src="script.js"></script>
 	</body>
 </html>
