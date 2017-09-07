@@ -161,6 +161,10 @@
     font-size: 26px;
   }
 
+  .subtitle {
+    padding-left: 90px;
+  }
+
   .history-category {
     width: 50%;
     display: inline-block;
@@ -170,6 +174,15 @@
 
   .body-text {
     padding: 25px 70px;
+  }
+
+  #news-timeline {
+    margin-bottom: 35px;
+  }
+
+  #slide-show-title {
+    font-size: 36px;
+    padding: 45px 0 15px 225px;
   }
 
   /*About*/

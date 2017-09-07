@@ -178,6 +178,15 @@
     padding-top: 25px;
   }
 
+  #news-timeline {
+    margin-bottom: 35px;
+  }
+
+  #slide-show-title {
+    font-size: 36px;
+    padding: 45px 0 15px 65px;
+  }
+
   /*About*/
 
   #bioblock {
@@ -709,6 +718,15 @@
 
   .body-text {
     padding-top: 25px;
+  }
+
+  #news-timeline {
+    margin-bottom: 35px;
+  }
+
+  #slide-show-title {
+    font-size: 36px;
+    padding: 45px 0 15px 200px;
   }
 
   /*About*/
