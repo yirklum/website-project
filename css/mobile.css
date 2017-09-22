@@ -195,6 +195,33 @@ h3 a {
   float: left;
 }
 
+.links {
+  color: #000000;
+}
+
+.links p {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.links ul {
+  background: #ff0000;
+  padding: 20px;
+  margin-bottom: 45px;
+}
+
+.links ul li {
+  background: #ffe5e5;
+  padding: 10px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.links li a {
+  color: #000000;
+}
+
 /* Contact */
 
 #note {
