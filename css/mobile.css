@@ -152,6 +152,14 @@ h3 a {
   width: 47%;
 }
 
+.hidden a {
+  cursor: text;
+}
+
+.hidden a:visited {
+  color: #000000;
+}
+
 /*History*/
 
 .smallbox {
@@ -468,14 +476,25 @@ h5 a {
 
 /* Gallery Category Pages */
 
-.gallery-item {
+.gallery-layout {
   display: inline-block;
   width: 20%;
-  padding-bottom: 15px;
+  margin: 15px;
+}
+
+.gallery-item {
+  background-color: #FFFFFF;
+  color:#000000;
+}
+
+.item-label {
+  text-align: center;
+  margin-top: 15px;
 }
 
 .inline-photos {
   display: inline-block;
+  height: 250px;
 }
 
 
