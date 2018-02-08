@@ -587,9 +587,25 @@ h5 a {
     }
 }
 
+.item-block {
+  border-top: 5px ridge blue;
+  border-bottom: 5px ridge blue;
+  padding: 15px;
+}
+
 .item-image {
   display: inline-block;
   float: left;
+  margin-bottom: 15px;
+}
+
+.item-text {
+  line-height: 30px;
+}
+
+.passage {
+  font-style: italic;
+  padding-left: 30px;
 }
 
 /* Politics Gallery */
