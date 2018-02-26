@@ -203,31 +203,31 @@ h3 a {
   float: left;
 }
 
-.links {
-  color: #000000;
+.links-photos {
+  width: 30%;
+  float: left;
+  display: inline-block;
+  margin-right: 15px;
+}                                                                                     
+
+.links-box {
+  border-top: solid 1px #0000ff;
+  padding: 25px;
 }
 
-.links p {
-  color: #ffffff;
-  margin-bottom: 10px;
-  font-size: 22px;
+.links-text {
+  width: 57%;
+  float: left;
+  display: inline-block;
 }
 
-.links ul {
-  background: #ff0000;
-  padding: 20px;
-  margin-bottom: 45px;
+.links-explanation {
+  font-size: 16px;
+  margin-top: 15px;
 }
 
-.links ul li {
-  background: #ffe5e5;
-  padding: 10px;
-  list-style-type: disc;
-  list-style-position: inside;
-}
-
-.links li a {
-  color: #000000;
+.links-text a {
+  color: #ffff00;
 }
 
 /* Contact */
