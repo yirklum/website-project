@@ -492,6 +492,10 @@ h5 a {
   margin-top: 15px;
 }
 
+.item-label a {
+  color: #FFFFFF;
+}
+
 .inline-photos {
   display: inline-block;
   height: 250px;
