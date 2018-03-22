@@ -160,6 +160,12 @@ h3 a {
   color: #000000;
 }
 
+.photo-row {
+  width: 100%
+  text-align: justify;
+  display: inline-block;
+}
+
 /*History*/
 
 .smallbox {
